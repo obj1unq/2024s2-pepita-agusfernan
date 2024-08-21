@@ -50,7 +50,13 @@ object pepon {
 	}
 
 	method volar(distancia) {
-		energia = energia - 20 
+		energia = energia - 20 - (distancia*2)
 	}
+	
+	method energia() {
+		return energia
+	}
+}
 
+object roque {
 }
